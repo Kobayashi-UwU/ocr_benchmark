@@ -1,19 +1,7 @@
-WER = (S+D+I)/N
-WER = (S+D+I)/(S+D+G)
+# How to use
 
-S คือจำนวนการแทนที่
+## Step 1
+Put text from model into `./input/` folder match the image number with .txt file in folder (You can checkout image number inside `./image/`)
 
-D คือจำนวนการลบ
-
-I คือจำนวนของการแทรก
-
-C คือจำนวนคำที่ถูกต้อง
-
-N คือจำนวนคำในการอ้างอิง (N = S + D + C)
-
-บอกความถูกต้องโดยรวมของ MODEL
-
-.
-
-.
-
+## Step 2
+Run `python main.py` and you will see the output CSV file
