@@ -1,5 +1,3 @@
-![Alt text](image.png)
-
 WER = (S+D+I)/N
 WER = (S+D+I)/(S+D+G)
 
